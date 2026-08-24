@@ -1,0 +1,16 @@
+{
+  "name": "vincenzo-bot",
+  "version": "1.0.0",
+  "description": "VINCENZO WhatsApp Bot Server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
